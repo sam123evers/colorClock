@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	/*border: 1px solid blue;*/
+}
+
+body {
+	height: 750px;
+}
+
+.colorFilm {
+	background: #4e663f;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+}
+
+.entire {
+	height: 100%;
+	width: 100%;
+	background: radial-gradient(circle, black, white, grey);
+}
+
+#time {
+	font-size: 50px;
+	color: white;
+	line-height: 750px;
+	text-align:center;
+}
