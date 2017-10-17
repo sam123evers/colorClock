@@ -1,15 +1,14 @@
 * {
 	box-sizing: border-box;
-	/*border: 1px solid blue;*/
 }
 
 body {
 	height: 750px;
 }
 
-.colorFilm {
-	background: #4e663f;
-	opacity: .5;
+#colorFilm {
+	
+	opacity: .4;
 	height: 100%;
 	width: 100%;
 }
@@ -17,12 +16,35 @@ body {
 .entire {
 	height: 100%;
 	width: 100%;
-	background: radial-gradient(circle, black, white, grey);
+	position: relative;
+	background: radial-gradient(circle, #ffffff, #9999ff, #000066);
+	/*background: radial-gradient(circle, black, grey, white);*/
 }
 
-#time {
-	font-size: 50px;
-	color: white;
-	line-height: 750px;
-	text-align:center;
+#theTime {
+	z-index: 1;
 }
+
+#theTime:hover {
+	cursor: pointer;
+}
+
+#theTime, #theHexCode{
+	font-family: "Fascinate Inline", cursive;
+	font-size: 100px;
+	color: white;
+	width: 33%;
+	position: absolute;
+	top: 30%;
+	right: 30%;
+}
+
+#theHexCode {
+	opacity: 0;
+}
+
+
+
+/*#theTime:hover {
+	color: white;
+}*/
